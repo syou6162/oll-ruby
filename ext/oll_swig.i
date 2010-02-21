@@ -1,4 +1,4 @@
-%module oll
+%module oll_core
 
 %include "std_vector.i"
 %include "std_pair.i"
