@@ -1,7 +1,7 @@
 =oll-ruby
 This is a Ruby binding of oll, a library specialized for large-scale, but sparse, learning tasks such as Natural Language Processing.
 
-For details of oll, see: oll - Project Hosting on Google Code(<http://code.google.com/p/oll/>)
+For details of oll, see: http://code.google.com/p/oll/
 
 =How to install
   $ git clone git@github.com:syou6162/oll-ruby.git
