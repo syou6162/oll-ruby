@@ -1,0 +1,15 @@
+=oll-ruby
+This is a Ruby binding of oll, a library specialized for large-scale, but sparse, learning tasks such as Natural Language Processing.
+
+For details of oll, see: oll - Project Hosting on Google Code(<http://code.google.com/p/oll/>)
+
+=How to install
+  $ git clone git@github.com:syou6162/oll-ruby.git
+  $ cd oll-ruby
+  $ ruby setup.rb # as root
+- oll library is bundled, so you don't need to install it separately.
+
+=How to use
+  oll = Oll.new("CW")
+  oll.add([[0, 1.0], [201, 2.2], [744, -0.3], [15, 3.0]], 1)
+  oll.classify([[0, 3], [3, 3], [4, 3]])
