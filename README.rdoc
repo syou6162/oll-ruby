@@ -13,3 +13,6 @@ For details of oll, see: http://code.google.com/p/oll
   oll = Oll.new("CW")
   oll.add([[0, 1.0], [201, 2.2], [744, -0.3], [15, 3.0]], 1)
   oll.classify([[0, 3], [3, 3], [4, 3]])
+
+=License
+New BSD License.
